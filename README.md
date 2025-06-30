@@ -1,22 +1,8 @@
 🍽 DelishBites – Sticky Blog Layout with CSS Grid
 
-📙 Project Overview
+📚 Project Overview
 
 DelishBites is a simple and responsive food blog page created using HTML5 and CSS3. The project was developed as part of a web development assignment to practice using CSS Grid layout and position: sticky for a fixed sidebar navigation.
-
-
----
-
-🎯 Assignment Objective
-
-Create a blog layout using CSS Grid with:
-
-A sticky sidebar (position: sticky) that remains visible while scrolling.
-
-A header at the top, sidebar on the left, main content on the right, and footer at the bottom.
-
-Semantic tags and responsive design for mobile devices.
-
 
 
 ---
@@ -191,4 +177,3 @@ On small screens:
 
 
 ---
-
