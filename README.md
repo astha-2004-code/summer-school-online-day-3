@@ -12,30 +12,29 @@ This project is a food blog named *DelishBites, built using **HTML5* and *CSS3* 
 
 ## 🧱 HTML Tags Used (With Explanation & Examples)
 
-| Tag                      | Purpose / Why Used                                  | Example from Code                                           |
-|--------------------------|-----------------------------------------------------|-------------------------------------------------------------|
-| <!DOCTYPE html>          | Declares document as HTML5                          | <!DOCTYPE html>                                             |
-| <html lang="en">         | Wraps whole document and sets language              | <html lang="en">                                            |
-| <head>                   | Contains meta info, title, stylesheet link          | <head> ... </head>                                          |
-| <meta>                   | Viewport and character encoding                     | <meta name="viewport" content="width=device-width...">      |
-| <title>                  | Sets the browser tab title                          | <title>DelishBites-Food Blog</title>                        |
-| <link>                   | Connects HTML to external CSS                       | <link rel="stylesheet" href="style.css"/>                   |
-| <body>                   | Contains all visible page content                   | <body> ... </body>                                          |
-| <div class="container">  | Grid layout wrapper                                 | Wraps header, sidebar, main, and footer                     |
-| <header>                 | Semantic tag for page header                        | <header>🍽DelishBites Food Blog</header>                    |
-| <aside>                  | Represents sidebar content                          | <aside> ... </aside>                                        |
-| <nav>                    | Holds navigation links                              | <nav class="sticky-sidebar"> ... </nav>                     |
-| <h3>                     | Sub-heading for categories                          | <h3>🍴Categories</h3>                                       |
-| <ul>                     | Unordered list for navigation links                 | <ul> ... </ul>                                              |
-| <li>                     | List items for each category                        | <li><a href="#breakfast">Breakfast</a></li>                 |
-| <a>                      | Anchor tag for navigation                           | <a href="#lunch">Lunch</a>                                  |
-| <main>                   | Semantic tag for main content                       | <main> ... </main>                                          |
-| <section>                | Divides blog content into sections                  | <section id="desserts"> ... </section>                      |
-| <h2>                     | Section headings                                    | <h2>🥞Fluffy Pancakes for Breakfast</h2>                    |
-| <img>                    | Displays images of dishes                           | <img src="..." alt="Pancakes" />                            |
-| <p>                      | Paragraphs of text                                  | <p>Start your day with fluffy pancakes...</p>               |
-| <footer>                 | Page footer section                                 | <footer><p>&copy; 2025 DelishBites</p></footer>             |
+Tag	Purpose / Why It’s Used	Example from Code
 
+<!DOCTYPE html>	Declares the document as HTML5	<!DOCTYPE html>
+<html lang="en">	Root element that wraps the whole document and sets the language to English	<html lang="en">
+<head>	Contains meta information, title, and links to CSS	<head> ... </head>
+<meta>	Provides metadata like character encoding and viewport settings	<meta charset="UTF-8">, <meta name="viewport" ...>
+<title>	Sets the page title shown in the browser tab	<title>DelishBites-Food Blog</title>
+<link>	Connects external CSS file to the HTML	<link rel="stylesheet" href="style.css" />
+<body>	Wraps all the visible content on the page	<body> ... </body>
+<div class="container">	Main wrapper for grid layout using CSS Grid	<div class="container"> ... </div>
+<header>	Semantic tag for the top section (blog title)	<header>🍽DelishBites Food Blog</header>
+<aside>	Contains sidebar content like the category links	<aside> ... </aside>
+<nav>	Navigation section, used for the category menu	<nav class="sticky-sidebar"> ... </nav>
+<h3>	Sidebar heading	<h3>🍴Categories</h3>
+<ul>	Unordered list for sidebar links	<ul> ... </ul>
+<li>	List item in the sidebar	<li><a href="#breakfast">Breakfast</a></li>
+<a>	Anchor links that allow users to jump to sections	<a href="#lunch">Lunch</a>
+<main>	Main blog content area	<main> ... </main>
+<section>	Wraps each food post category like Breakfast, Lunch, etc.	<section id="desserts"> ... </section>
+<h2>	Headings for individual blog post sections	<h2>🥞 Fluffy Pancakes for Breakfast</h2>
+<img>	Displays images for each food section	<img src="..." alt="Pancakes" />
+<p>	Paragraph description for each dish	<p>Start your day with fluffy pancakes served with syrup...</p>
+<footer>	Bottom section of the blog, usually copyright info	<footer><p>&copy; 2025 DelishBites</p></footer>
 ---
 
 ## 🎨 CSS Properties and Selectors (With Reason and Use)
