@@ -14,29 +14,29 @@ This project is a food blog named *DelishBites, built using **HTML5* and *CSS3* 
 
 ## 🧱 HTML Tags Used (With Explanation & Examples)
 
-| Tag        | Purpose / Why Used                                  | Example from Code                                           |
-|------------|------------------------------------------------------|-------------------------------------------------------------|
-| <!DOCTYPE html> | Declares document as HTML5                     | <!DOCTYPE html>                                           |
-| <html lang="en"> | Wraps whole document and sets language        | <html lang="en">                                          |
-| <head>    | Contains meta info, title, stylesheet link         | <head> ... </head>                                        |
-| <meta>    | Viewport and character encoding                    | <meta name="viewport" content="width=device-width...">    |
-| <title>   | Sets the browser tab title                         | <title>DelishBites-Food Blog</title>                      |
-| <link>    | Connects HTML to external CSS                      | <link rel="stylesheet" href="style.css"/>                 |
-| <body>    | Contains all visible page content                  | <body> ... </body>                                        |
-| <div class="container"> | Grid layout wrapper                    | Wraps header, sidebar, main, and footer                     |
-| <header>  | Semantic tag for page header                       | <header>🍽DelishBites Food Blog</header>                 |
-| <aside>   | Represents sidebar content                         | <aside> ... </aside>                                      |
-| <nav>     | Holds navigation links                             | <nav class="sticky-sidebar"> ... </nav>                   |
-| <h3>      | Sub-heading for categories                         | <h3>🍴Categories</h3>                                     |
-| <ul>      | Unordered list for navigation links                | <ul> ... </ul>                                            |
-| <li>      | List items for each category                       | <li><a href="#breakfast">Breakfast</a></li>               |
-| <a>       | Anchor tag for navigation                          | <a href="#lunch">Lunch</a>                                |
-| <main>    | Semantic tag for main content                      | <main> ... </main>                                        |
-| <section> | Divides blog content into sections                 | <section id="desserts"> ... </section>                    |
-| <h2>      | Section headings                                   | <h2>🥞Fluffy Pancakes for Breakfast</h2>                   |
-| <img>     | Displays images of dishes                          | <img src="..." alt="Pancakes" />                          |
-| <p>       | Paragraphs of text                                 | <p>Start your day with fluffy pancakes...</p>             |
-| <footer>  | Page footer section                                | <footer><p>&copy; 2025 DelishBites</p></footer>           |
+| Tag                            | Purpose / Why Used                                  | Example from Code                                           |
+|--------------------------------|-----------------------------------------------------|-------------------------------------------------------------|
+| (<!DOCTYPE html>)                | Declares document as HTML5                          | <!DOCTYPE html>                                             |
+| (<html lang="en">)               | Wraps whole document and sets language              | <html lang="en">                                            |
+| (<head>)                         | Contains meta info, title, stylesheet link          | <head> ... </head>                                          |
+| (<meta>)                         | Viewport and character encoding                     | <meta name="viewport" content="width=device-width...">      |
+| (<title>)                       | Sets the browser tab title                          | <title>DelishBites-Food Blog</title>                        |
+| (<link> )                        | Connects HTML to external CSS                       | <link rel="stylesheet" href="style.css"/>                   |
+| (<body>  )                       | Contains all visible page content                   | <body> ... </body>                                          |
+| (<div class="container"> )       | Grid layout wrapper                                 | Wraps header, sidebar, main, and footer                     |
+| (<header>  )                     | Semantic tag for page header                        | <header>🍽DelishBites Food Blog</header>                    |
+| (<aside>   )                     | Represents sidebar content                          | <aside> ... </aside>                                        |
+| (<nav>       )                   | Holds navigation links                              | <nav class="sticky-sidebar"> ... </nav>                     |
+| (<h3>)                           | Sub-heading for categories                          | <h3>🍴Categories</h3>                                       |
+| (<ul> )                          | Unordered list for navigation links                 | <ul> ... </ul>                                              |
+| (<li> )                          | List items for each category                        | <li><a href="#breakfast">Breakfast</a></li>                 |
+| <a>                            | Anchor tag for navigation                           | <a href="#lunch">Lunch</a>                                  |
+| <main>                         | Semantic tag for main content                       | <main> ... </main>                                          |
+| <section>                      | Divides blog content into sections                  | <section id="desserts"> ... </section>                      |
+| <h2>                           | Section headings                                    | <h2>🥞Fluffy Pancakes for Breakfast</h2>                    |
+| <img>                          | Displays images of dishes                           | <img src="..." alt="Pancakes" />                             |
+| <p>                            | Paragraphs of text                                  | <p>Start your day with fluffy pancakes...</p>                |
+| <footer>                       | Page footer section                                 | <footer><p>&copy; 2025 DelishBites</p></footer>              |
 
 ---
 
